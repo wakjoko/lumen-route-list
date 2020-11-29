@@ -1,31 +1,31 @@
 # Lumen Route List Display
 
-[![Total Downloads](https://poser.pugx.org/appzcoder/lumen-routes-list/d/total.svg)](https://packagist.org/packages/appzcoder/lumen-routes-list)
-[![Latest Stable Version](https://poser.pugx.org/appzcoder/lumen-routes-list/v/stable.svg)](https://packagist.org/packages/appzcoder/lumen-routes-list)
-[![Latest Unstable Version](https://poser.pugx.org/appzcoder/lumen-routes-list/v/unstable.svg)](https://packagist.org/packages/appzcoder/lumen-routes-list)
-[![License](https://poser.pugx.org/appzcoder/lumen-routes-list/license.svg)](https://packagist.org/packages/appzcoder/lumen-routes-list)
+[![Total Downloads](https://poser.pugx.org/wakjoko/lumen-routes-list/d/total.svg)](https://packagist.org/packages/wakjoko/lumen-routes-list)
+[![Latest Stable Version](https://poser.pugx.org/wakjoko/lumen-routes-list/v/stable.svg)](https://packagist.org/packages/wakjoko/lumen-routes-list)
+[![Latest Unstable Version](https://poser.pugx.org/wakjoko/lumen-routes-list/v/unstable.svg)](https://packagist.org/packages/wakjoko/lumen-routes-list)
+[![License](https://poser.pugx.org/wakjoko/lumen-routes-list/license.svg)](https://packagist.org/packages/wakjoko/lumen-routes-list)
 
+Making `artisan route:list` works in Lumen apps.
+
+This forked version was intended to support latest Lumen versions.
+
+It was due to the original package from appzcoder/lumen-routes-list supports only up to Lumen 6.
 
 ## Installation
 
 1. Run
     ```
-    composer require appzcoder/lumen-routes-list
+    composer require wakjoko/lumen-routes-list
     ```
 
 2. Add service provider into **/bootstrap/app.php** file.
     ```php
-    $app->register(Appzcoder\LumenRoutesList\RoutesCommandServiceProvider::class);
+    $app->register(Wakjoko\LumenRoutesList\RoutesCommandServiceProvider::class);
     ```
 3. Run ```composer dump-autoload```
 
-## Commands
+## Artisan Command
 
 ```
 php artisan route:list
 ```
-
-
-## Author
-
-<a href="http://www.sohelamin.com">Sohel Amin</a>

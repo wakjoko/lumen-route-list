@@ -1,6 +1,6 @@
 <?php
 
-namespace Appzcoder\LumenRoutesList;
+namespace Wakjoko\LumenRoutesList;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Arr;
